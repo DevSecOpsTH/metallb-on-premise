@@ -35,10 +35,13 @@ kubectl get services
 
 output
 ======
+
+```
 $ kubectl get service
 NAME         TYPE           CLUSTER-IP       EXTERNAL-IP     PORT(S)        AGE
 kubernetes   ClusterIP      10.96.0.1        <none>          443/TCP        3m
 nginx        LoadBalancer   10.110.123.109   192.168.99.10   80:32649/TCP   1m
+```
 
 
 ```
